@@ -1,0 +1,55 @@
+.first {
+    display: flex;
+    gap: 0.75rem;
+  }
+  
+  .second {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    appearance: none; /* Remove default appearance */
+    border-radius: 0.375rem; /* Rounded corners */
+    border: 1px solid #e2e8f0; /* Add border */
+    width: 100%; /* Full width */
+    padding-top: 0.5rem; /* Padding top */
+    padding-bottom: 0.5rem; /* Padding bottom */
+    padding-left: 0.75rem; /* Padding left */
+    padding-right: 0.75rem; /* Padding right */
+    color: #1e232c; /* Text color */
+    line-height: 1.25; /* Line height */
+    outline: none; /* Remove outline */
+    transition: box-shadow 0.15s ease-in-out; /* Transition for shadow */
+    background-color: #bad7ea; /* Background color */
+  }
+  
+  .second:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5); /* Add focus shadow */
+  }
+  
+  /* Optional: Customize placeholder styles */
+  .second::placeholder {
+    color: #a0aec0; /* Placeholder text color */
+  }
+  
+  .button {
+    background-color: #3b82f6; /* Background color */
+    color: #ffffff; /* Text color */
+    font-weight: bold; /* Bold font */
+    padding-top: 0.5rem; /* Padding top */
+    padding-bottom: 0.5rem; /* Padding bottom */
+    padding-left: 1.25rem; /* Padding left */
+    padding-right: 1.25rem; /* Padding right */
+    border-radius: 0.375rem; /* Rounded corners */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add pointer cursor */
+    font-size: 1rem; /* Font size */
+    transition: background-color 0.3s ease-in-out; /* Transition for background color */
+  }
+  
+  .button:hover {
+    background-color: #2563eb; /* Background color on hover */
+  }
+  
+  .button:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5); /* Add focus shadow */
+  }
+  
+  

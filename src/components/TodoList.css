@@ -1,0 +1,29 @@
+.top {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute space between flex items */
+    background-color: #da9588; /* Background color */
+    padding: 0.5rem; /* Padding */
+    border-radius: 0.375rem; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow */
+  }
+  .todo2 {
+    flex: 1; /* Occupy remaining space */
+  }
+  
+  .three {
+    display: flex; /* Use flexbox */
+    gap: 1rem; /* Spacing between icons */
+  }
+  .four {
+    cursor: pointer; /* Equivalent to cursor-pointer */
+    color: #26b688; /* Equivalent to text-green-700 */
+  }
+  .five {
+    cursor: pointer; /* Equivalent to cursor-pointer */
+    color: #b7791f; /* Equivalent to text-yellow-700 */
+  }
+  .six {
+    cursor: pointer; /* Equivalent to cursor-pointer */
+    color: #ca2b2b; /* Equivalent to text-red-700 */
+  }
+        

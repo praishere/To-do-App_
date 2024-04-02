@@ -1,0 +1,25 @@
+.bg-image {
+  background-image: url('assets/image.jpg');
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  width: 100vw; /* Ensure full width of the viewport */
+  height: 100vh; /* Ensure full height of the viewport */
+}
+
+h2{
+  text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Set height equal to the viewport height */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+footer{
+  background-color: rgb(160, 71, 71);
+  text-align: center;
+  color: white;
+}
