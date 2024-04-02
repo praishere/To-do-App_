@@ -32,9 +32,6 @@ cd project-directory
 ```bash
 npm install
 ```
-Then you can start your server (You can use Vite)
-
-
 4. Install bootstrap:
 
 ```bash
@@ -49,7 +46,7 @@ npm install @reduxjs/toolkit
 ```bash
 npm install react-redux
 ```
-
+Then you can start your server (You can use Vite) and see the APP LIVE!!
 
 ## Running the Project
 
